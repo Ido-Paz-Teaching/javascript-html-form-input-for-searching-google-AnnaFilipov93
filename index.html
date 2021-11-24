@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Form demo</title>
+    <link href="style.css" rel="stylesheet" />
+    <script src="formValidation.js"></script>
+</head>
+<body>
+    <form action="https://google.co.il/search" target="_blank" autocomplete="off"> 
+        <label for="q">
+            Search text:
+        </label>
+        <input type="text" name="q" id="q" placeholder="enter text" autofocus>
+
+        <label for="as_qdr">
+            That was updated in:
+        </label>
+        
+        <select name="as_qdr" id="as_qdr">
+            <option value="">Any time</option>
+            <option value="d">Previous 24 hours</option>
+            <option value="w">Previous seven days</option>
+            <option value="m">Previous month</option>
+            <option value="y">Past year</option>
+        </select>
+
+        <label for="lr">
+            Search only pages written in hebrew:
+        </label>
+        <input type="checkbox" name="lr" id="lr" value="lang_iw"/>
+
+        <label for="num">
+            Number of results:
+        </label>
+        <input type="text" name="num" id="num" placeholder="enter number"/>
+
+        <button type="submit">Ask google🔎</button>
+    </form>
+</body>
+</html>

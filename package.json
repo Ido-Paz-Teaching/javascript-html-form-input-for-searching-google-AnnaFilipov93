@@ -1,0 +1,19 @@
+{
+  "name": "javascript-html-css-responsive-form-input-search-google-ido-paz",
+  "version": "1.0.0",
+  "description": "1. Use exiting index.html,style.css files without changing them<br/>\r 2. All javascript form validation code should be written in external file named formValidtion.js.<br/>\r 3. <b>Form submiting valitiation rules:</b><br/>\r a. The q input must have at least 1 character(not whitespace) and the text must be a string and not a number.<br/>\r b. The num input must have at least 1 character and must be a number between 1 to 25.<br/>\r 4.  <b>When pressing submit:</b><br/>\r a. Display alert when one of the (b OR c) rules are not met,and don't submit the data.<br/>\r b. Submit form data to google when the (b OR c) rules are met.",
+  "main": "formValidation.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "javascript",
+    "html",
+    "css"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^27.3.1"
+  }
+}
